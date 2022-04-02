@@ -1,0 +1,27 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.nav {
+    text-transform: uppercase;
+    color: #6e7ea9;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn-free {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #1085e4;
+    font-weight: 400;
+}
