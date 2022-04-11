@@ -1,9 +1,21 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7581a1;
+    line-height: 26px;
 }
 
 a {
     text-decoration: none;
+}
+
+span {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-type: none;
 }
 
 h1 {
@@ -24,4 +36,122 @@ h1 {
     text-transform: uppercase;
     background-color: #1085e4;
     font-weight: 400;
+}
+
+.grid h2 {
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+
+.grid h2 span {
+    font-size: 14px;
+    color: #1085e4;
+    display: block;
+}
+
+.grid-item h3 {
+    font-size: 20px;
+    color: #192b59;
+    font-weight: 600;
+}
+
+/*
+.grid-item p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7581a1;
+}
+*/
+
+.grid-item a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1085e4;
+}
+
+.grid-author h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #192b59;
+}
+
+.grid-author h3 span {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1085e4;
+}
+
+.page-subcsribe {
+    background: url(../image/bg-subscribe.png);
+
+}
+
+.page-subcsribe h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.page-subcsribe h2 span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+}
+
+.page-subcsribe p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #dfe8ff;
+}
+
+.page-subcsribe button {
+    color: #fff;
+    background: #1085e4;
+}
+
+.page-software h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.page-software dl dt {
+    font-size: 16px;
+    font-weight: 700;
+    color: #5a6789;
+}
+
+.page-software dl dd {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.page-stat h2 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #192b59;
+    text-align: center;
+}
+
+.page-stat h2 span {
+    font-size: 16px;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+}
+
+.page-stat li {
+    font-size: 60px;
+    font-weight: 700;
+    color: #bacbdc;
+    text-transform: uppercase;
+}
+
+.page-stat li span {
+    font-size: 12px;
+    font-weight: 700;
+    color: #1085e4;
+    display: block;
 }
