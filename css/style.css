@@ -1,3 +1,7 @@
+* {
+    font-family: inherit;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -11,6 +15,7 @@ a {
 }
 
 span {
+    display: block;
     text-transform: uppercase;
 }
 
@@ -51,7 +56,6 @@ h1 {
     color: #1085e4;
 }
 
-
 .btn-secondary {
     font-size: 12px;
     font-weight: 700;
@@ -74,6 +78,14 @@ h1 {
 .btn-free {
     font-weight: 400;
     padding: 20px 50px;
+}
+
+.btn-transparent {
+    background-color: transparent;
+}
+
+.btn-transparent:hover {
+    border: 3px solid #cbdbe8;
 }
 
 .grid h2 {
@@ -146,7 +158,6 @@ h1 {
 .page-subcsribe button {
     color: #fff;
     background: #1085e4;
-    font-family: 'Open Sans', sans-serif;
 }
 
 .page-software h2 {
