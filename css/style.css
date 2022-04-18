@@ -29,13 +29,51 @@ h1 {
     color: #6e7ea9;
     font-size: 12px;
     font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-first {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: #1085e4;
+    border: 1px solid #1085e4;
+    border-radius: 30px;
+    padding: 20px 40px;
+    letter-spacing: 2.5px;
+}
+
+.btn-first:hover {
+    border: 1px solid #1085e4;
+    background: #fff;
+    color: #1085e4;
+}
+
+
+.btn-secondary {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #7e8bae;
+    background: #cbdbe8;
+    border: 1px solid #cbdbe8;
+    border-radius: 30px;
+    padding: 20px 40px;
+    letter-spacing: 2.5px;
+    margin-left: 15px;
+}
+
+.btn-secondary:hover {
+    border: 1px solid #cbdbe8;
+    background-color: transparent;
+    color: #7e8bae;
 }
 
 .btn-free {
-    color: #fff;
-    text-transform: uppercase;
-    background-color: #1085e4;
     font-weight: 400;
+    padding: 20px 50px;
 }
 
 .grid h2 {
@@ -84,7 +122,6 @@ h1 {
 
 .page-subcsribe {
     background: url(../image/bg-subscribe.png);
-
 }
 
 .page-subcsribe h2 {
@@ -109,6 +146,7 @@ h1 {
 .page-subcsribe button {
     color: #fff;
     background: #1085e4;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .page-software h2 {
