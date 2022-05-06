@@ -490,6 +490,61 @@ h1 {
     margin-bottom: -7px;
 }
 
+.page-clients {
+    background-image: url(/image/bg-clients.png);
+    background-repeat: no-repeat;
+
+}
+
+.page-clients h2 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    padding: 0 0 50px 0;
+    color: #fff;
+}
+
+.page-clients h2 span {
+    font-size: 18px;
+    color: #85c8ff;
+    font-weight: 800;
+    letter-spacing: 3.5px;
+    padding-bottom: 27px;
+}
+
+.box-clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.square-client {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 350px;
+    height: 225px;
+}
+
+.client-text {
+    font-size: 14px;
+    color: #8085b1;
+    font-weight: 400;
+
+}
+
+.name {
+    font-size: 22px;
+    color: #192b59;
+    font-weight: 700;
+}
+
+.position {
+    font-size: 14px;
+    color: #1085e4;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
 .page-plan {
     text-align: center;
 }
