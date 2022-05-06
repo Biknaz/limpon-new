@@ -86,7 +86,7 @@ h1 {
 
 .btn-first:hover {
     border: 1px solid #1085e4;
-    background: #fff;
+    background: transparent;
     color: #1085e4;
 }
 
@@ -173,38 +173,130 @@ h1 {
     top: 180px;
 }
 
+.page-company {
+    background-image: url(../image/bg_sponsors.png);
+    padding: 100px 0 100px 0;
+}
+
+.page-company ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.co-1 {
+    background-image: url(../image/company_1.png);
+    width: 198px;
+    height: 58px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.co-2 {
+    background-image: url(../image/company_2.png);
+    width: 200px;
+    height: 69px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.co-3 {
+    background-image: url(../image/company_3.png);
+    width: 201px;
+    height: 47px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.co-4 {
+    background-image: url(../image/company_4.png);
+    width: 200px;
+    height: 69px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
 .page-subcsribe {
-    background: url(../image/bg-subscribe.png);
+    background-image: url(../image/bg-subscribe.png);
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .page-subcsribe h2 {
     font-size: 50px;
     font-weight: 600;
     color: #fff;
+    letter-spacing: -1.5px;
 }
 
-.page-subcsribe h2 span {
+.page-subcsribe span {
     font-size: 14px;
     font-weight: 800;
     color: #1085e4;
     display: block;
+    padding-bottom: 30px;
+    letter-spacing: 2.5px;
 }
 
 .page-subcsribe p {
     font-size: 18px;
     font-weight: 400;
     color: #dfe8ff;
+    max-width: 410px;
+    padding-bottom: 65px;
+}
+
+.sub-button {
+    position: relative;
 }
 
 .page-subcsribe button {
     color: #fff;
     background: #1085e4;
+    padding: 15px 40px;
+    letter-spacing: 4px;
+    position: absolute;
+    right: -118px;
+    top: 5px;
 }
+
+.page-subcsribe input {
+    border-radius: 30px;
+    padding: 20px 20px;
+    width: 120%;
+    border: 1px solid #4162b5;
+    background-color: transparent;
+    color: white;
+}
+
+.page-software {
+    display: flex;
+    justify-content: left;
+    padding: 125px 0 110px 0;
+    background-image: url(/image/grab-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 45px;
+}
+
+.box-grab p {
+    max-width: 610px;
+    margin-bottom: 30px;
+}
+
 
 .page-software h2 {
     font-size: 50px;
     font-weight: 600;
     color: #192b59;
+    line-height: 1.2;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    max-width: 560px;
+    letter-spacing: -1px;
 }
 
 .page-software dl dt {
@@ -216,6 +308,25 @@ h1 {
 .page-software dl dd {
     font-size: 14px;
     font-weight: 400;
+    margin: 0;
+    padding: 10px 0 45px 0;
+    max-width: 550px;
+}
+
+.bg-software {
+    width: 931px;
+    height: 760px;
+    background-repeat: no-repeat;
+}
+
+.box-subscribe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.robot img {
+    width: 354px;
+    height: 417px;
 }
 
 .page-stat h2 {
@@ -267,6 +378,90 @@ h1 {
     background-color: #edf6ff;
     padding-top: 115px;
     padding-bottom: 96px;
+}
+
+.page-app {
+    max-width: 1280px;
+    padding: 50px 0 30px 400px;
+}
+
+.page-app h2 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1.4px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    color: #192b59;
+}
+
+.app-avi {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #c4d2dd;
+    font-weight: 600;
+    letter-spacing: 3.5px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+
+.page-analytics {
+    max-height: 625px;
+    background-image: url(/image/bg-analytics.png);
+    background-repeat: no-repeat;
+    padding: 140px 0 120px 0;
+}
+
+.page-analytics-2 {
+    padding: 140px 0 120px 0;
+}
+
+.ana-1 {
+    width: 431px;
+    height: 335px;
+}
+
+.ana-2 {
+    width: 419px;
+    height: 361px;
+}
+
+.box-analytics {
+    display: flex;
+}
+
+.box-analytics h2 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1.4px;
+    line-height: 1.3;
+    margin-bottom: 30px;
+    color: #192b59;
+}
+
+.box-analytics p {
+    padding: 0 0 30px 0;
+}
+
+.go-right {
+    padding-left: 60px;
+}
+
+.go-left {
+    padding-right: 60px;
+}
+
+.box-app {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+}
+
+.box-app ul {
+    display: flex;
+}
+
+.box-app ul li {
+    padding-right: 30px;
 }
 
 .page-screen {
