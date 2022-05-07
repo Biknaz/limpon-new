@@ -493,7 +493,8 @@ h1 {
 .page-clients {
     background-image: url(/image/bg-clients.png);
     background-repeat: no-repeat;
-
+    background-position: left bottom;
+    padding: 100px 0 0 0;
 }
 
 .page-clients h2 {
@@ -525,6 +526,10 @@ h1 {
     height: 225px;
 }
 
+.padding-box {
+    padding: 20px 40px 0 40px;
+}
+
 .client-text {
     font-size: 14px;
     color: #8085b1;
@@ -532,17 +537,26 @@ h1 {
 
 }
 
+.avatar img {
+    float: left;
+    margin-right: 15px;
+}
+
 .name {
     font-size: 22px;
     color: #192b59;
-    font-weight: 700;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.8px;
 }
 
 .position {
     font-size: 14px;
     color: #1085e4;
-    font-weight: 800;
+    font-weight: 700;
     text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 3px;
 }
 
 .page-plan {
