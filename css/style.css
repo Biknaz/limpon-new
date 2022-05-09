@@ -117,6 +117,11 @@ h1 {
     padding: 20px 50px;
 }
 
+.page-grid {
+    margin-top: 140px;
+    margin-bottom: 40px;
+}
+
 .grid {
     display: grid;
     grid-template-areas:
@@ -170,6 +175,7 @@ h1 {
     line-height: 1.15;
     letter-spacing: -1px;
     max-width: 270px;
+    margin-top: 0;
 }
 
 .grid h2 span {
@@ -220,6 +226,7 @@ h1 {
     font-size: 14px;
     font-weight: 400;
     color: #1085e4;
+    text-transform: capitalize;
 }
 
 .grid-icon {
@@ -260,6 +267,12 @@ h1 {
     background-size: 100px 87px;
     width: 100px;
     height: 87px;
+}
+
+.grid-author-item {
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .page-header {
@@ -810,4 +823,100 @@ h1 {
     width: 288px;
     height: 270px;
     margin-top: -85px;
+}
+
+.page-form {
+    display: flex;
+    max-width: 1110px;
+    justify-content: left;
+    margin: 0 auto;
+}
+
+.form-bg {
+    background-image: url(../image/bg-form.png);
+    padding: 70px 0 200px 0;
+}
+
+.form-item {
+    background-image: url(../image/Слой\ 3.png);
+    width: 469px;
+    height: 361px;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    align-self: center;
+}
+
+.form h2 {
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #192b59;
+    line-height: 1.2;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    /*height: 100%;*/
+}
+
+.form input {
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid #dce4ec;
+    background-color: #fff;
+    color: #8995b3;
+    box-sizing: border-box;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.form textarea {
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    border: 2px solid #dce4ec;
+    background-color: #fff;
+    color: #8995b3;
+    box-sizing: border-box;
+    font-size: 14px;
+    resize: none;
+    margin-bottom: 25px;
+}
+
+.form button {
+    max-width: 230px;
+}
+
+.page-footer {
+    background-color: #192b59;
+    padding: 10px 0 10px 0;
+}
+
+.footer-item {
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item p {
+    color: #b6bae0;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-item p a {
+    color: #1085e4;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.social {
+    display: flex;
+    justify-content: end;
+}
+
+.social li {
+    padding-left: 30px;
 }
