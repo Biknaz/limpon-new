@@ -8,6 +8,7 @@ body {
     font-weight: 400;
     color: #7581a1;
     line-height: 26px;
+    margin: 0;
 }
 
 a {
@@ -564,6 +565,7 @@ h1 {
 
 .page-plan {
     text-align: center;
+    margin-bottom: 120px;
 }
 
 .page-plan h2 {
@@ -659,4 +661,47 @@ h1 {
 
 .item-ul {
     margin-bottom: 50px;
+}
+
+.page-team {
+    padding: 80px 0 100px 0;
+    background-image: url(/image/team.png);
+    background-repeat: no-repeat;
+}
+
+.box-team {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-team h2 {
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #fff;
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+.page-team h2 span {
+    font-size: 18px;
+    color: #85c8ff;
+    font-weight: 800;
+    letter-spacing: 3.5px;
+    padding-bottom: 25px;
+}
+
+.box-team-item {
+    background-color: #fff;
+    height: 383px;
+    width: 350px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+}
+
+.box-team-item img {
+    width: 288px;
+    height: 270px;
+    margin-top: -85px;
 }
