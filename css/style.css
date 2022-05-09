@@ -422,6 +422,12 @@ h1 {
     letter-spacing: -1px;
 }
 
+.page-software-list {
+    height: 340px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 .page-software dl dt {
     font-size: 16px;
     font-weight: 700;
