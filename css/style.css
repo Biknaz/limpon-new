@@ -400,7 +400,7 @@ h1 {
     display: flex;
     justify-content: left;
     padding: 125px 0 110px 0;
-    background-image: url(/image/grab-bg.png);
+    background-image: url(./image/grab-bg.png);
     background-repeat: no-repeat;
     background-position-y: 45px;
 }
@@ -426,6 +426,19 @@ h1 {
     height: 340px;
     overflow: hidden;
     overflow-y: scroll;
+}
+
+.page-software-list::-webkit-scrollbar {
+    width: 4px;
+    background-color: #f3f6ff;
+    border-radius: 10px;
+}
+
+.page-software-list::-webkit-scrollbar-thumb {
+    width: 4px;
+    height: 20px;
+    color: #1085e4;
+    border-radius: 10px;
 }
 
 .page-software dl dt {
@@ -532,7 +545,7 @@ h1 {
 
 .page-analytics {
     max-height: 625px;
-    background-image: url(/image/bg-analytics.png);
+    background-image: url(../image/bg-analytics.png);
     background-repeat: no-repeat;
     padding: 140px 0 120px 0;
 }
@@ -617,7 +630,7 @@ h1 {
 }
 
 .page-clients {
-    background-image: url(/image/bg-clients.png);
+    background-image: url(../image/bg-clients.png);
     background-repeat: no-repeat;
     background-position: left bottom;
     background-position: 0 60%;
@@ -790,7 +803,7 @@ h1 {
 
 .page-team {
     padding: 80px 0 100px 0;
-    background-image: url(/image/team.png);
+    background-image: url(../image/team.png);
     background-repeat: no-repeat;
 }
 
@@ -825,10 +838,29 @@ h1 {
     box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
 }
 
-.box-team-item img {
+.avatar-team {
     width: 288px;
     height: 270px;
     margin-top: -85px;
+}
+
+.team-position {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.team-name {
+    font-size: 26px;
+    font-weight: 600;
+    color: #192b59;
+}
+
+.team-btn {
+    height: 50px;
+    width: 50px;
 }
 
 .page-form {
@@ -844,7 +876,7 @@ h1 {
 }
 
 .form-item {
-    background-image: url(../image/Слой\ 3.png);
+    background-image: url(../image/Слой-3.png);
     width: 469px;
     height: 361px;
     background-repeat: no-repeat;
